@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(/assets/images/landscape1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* backdrop-filter: blur(2px); */
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;  
+}
+
+.search{
+    width: 200px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 20px;
+    outline: none;
+    border: 1px solid papayawhip;
+    background-color: transparent;
+    margin-right: 110px;
+    color: papayawhip;
+    font-size: 20px;
+}
+search:hover{
+    color: white;
+}
+.search::placeholder{
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+li, a{
+    text-decoration: none;
+    list-style-type: none;
+    letter-spacing: 3px;
+    color: papayawhip;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 800;   
+}
+li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin-left: 18px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 20px;
+}
+.main1{
+
+
+}
+.main2{
+    margin-left: 60px;
+    display: flex;
+    /* backdrop-filter: blur(5px);  */
+    /* flex-direction: column; */
+}
+.form{
+    padding: 50px 40px;
+    /* border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px; */
+    border-radius: 80px;
+    /* background-color: rgb(1, 1, 190); */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* backdrop-filter: blur(5px); */
+
+}
+.sign-inn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 4px;
+    color: papayawhip;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+h2{
+    margin-bottom: 70px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+h1{
+    color: papayawhip;
+    font-size: 60px;
+    /* margin-top: 60px; */
+}
+.hwelcome{
+    margin-top: 100px;
+}
+h2{
+    color: papayawhip;
+    font-size: 30px;
+}
+h3{
+    color: papayawhip;
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    margin-bottom: -55px;
+}
+p{
+    color: papayawhip;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 50px;    
+}
+.dont-have{
+    font-size: 17px;
+}
+
+form input{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: red;
+    outline: none;
+    background: transparent;
+    border-style: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 5px 5px 5px rgb(204, 179, 138);
+}
+.input-box{
+    position: relative;
+    
+}
+input:focus~label,
+input:valid~label{
+    top: -14px;
+    font-size: 15px;
+}
+
+label{
+    color: papayawhip;
+    letter-spacing: 4px;
+    font-size: 20px;
+    position: absolute;
+    margin-left: -480px;
+    margin-top: 10px;
+    pointer-events: none;
+}
+.link-remember{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.dont-have{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.rf{
+    color: papayawhip;
+    letter-spacing: 0;
+}
+.rf:hover{
+    color: red;
+}
+button{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(204, 179, 138) ;
+    color: black;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    font-weight: 800;
+}
+button:hover{
+    color: brown ;
+    background-color: gray ;
+}
+.last-signup{
+    font-size: 20px;
+}
+
+span{
+    color: red;
+}
+.last-signup:hover{
+    color: red;
+
+}
+.icons{
+    display: flex;
+    gap: 25px;
+}
+
